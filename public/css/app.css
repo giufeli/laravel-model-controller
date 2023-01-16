@@ -10838,3 +10838,10 @@ li {
 body {
   background-color: rgb(23, 23, 23);
 }
+
+.home {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+}

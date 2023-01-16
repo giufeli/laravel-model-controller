@@ -11,5 +11,6 @@
     <div class="d-flex justify-content-center">
         <a href="/movie"><button type="button" class="btn btn-primary">Accedi ai film</button></a>
     </div>
+
 </body>
 </html>
