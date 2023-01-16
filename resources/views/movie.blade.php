@@ -8,6 +8,10 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Hello world</h1>
+    <ul>
+        @foreach ($movies as $items)
+            <li>{{ $items->id }} - {{ $items->title }} - {{ $items->original_title }} - {{ $items->nationality }} - {{ $items->date }}- {{ $items->vote }}</li>
+        @endforeach
+    </ul>
 </body>
 </html>
